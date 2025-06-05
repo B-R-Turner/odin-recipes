@@ -1,12 +1,18 @@
 * {
-    font-family: 'Courier New', Courier, monospace;   
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+a {
+    background-color: orange;
+    color: black;
 }
 
 body {
     background-color: darkorange;
 }
 
-div {
+div, header {
     background-color: orange;
     border-style: double;
 }
@@ -24,4 +30,12 @@ img {
     height: auto;
     border-style: double;
     border-width: 5px;
+}
+
+li {
+    font-size: large;
+}
+
+.recipe-list {
+
 }
